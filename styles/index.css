@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Monda", sans-serif;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+.limit_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header_btn {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  background: #011b40;
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  min-width: 225px;
+}
+.header_btn:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.box {
+  color: white;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 770px;
+  display: flex;
+  align-items: center;
+}
+.texts {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+h1 {
+  font-family: Impact;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rgisterBtn {
+  width: 225px;
+  color: #011b40;
+  background-color: white;
+}
+.consult_form {
+  background: rgba(1, 27, 64, 0.25);
+  text-align: center;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.consult_input {
+  color: #011b40;
+  font-family: Monda;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 33px;
+  max-width: 225px;
+}
+.consult_input::placeholder {
+  color: #011b40;
+}
+.consult_form_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  gap: 25px;
+}
+.ask {
+  color: #011b40;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order {
+  color: #011b40;
+  text-align: center;
+  font-family: Impact;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.aboutTitle {
+  color: #011b40;
+  text-align: center;
+  font-family: Impact;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 35px;
+}
+.aboutImg {
+  width: 583px;
+  height: 340px;
+}
+.content {
+  margin: 35px 0;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.about_info {
+  color: #011b40;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bg_color {
+  background: rgba(1, 27, 64, 0.5);
+}
+.aboutUsTitle {
+  color: white;
+  text-align: center;
+  font-family: Impact;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 35px;
+}
+.card {
+  display: flex;
+  color: white;
+  text-align: right;
+  gap: 64px;
+  align-items: center;
+  padding: 35px 0;
+}
+.name {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+}
+.about_member {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_left {
+  text-align: left;
+  color: #011b40;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.feedback_img {
+  margin-top: 80px;
+}
+.feedback_name {
+  color: #011b40;
+  text-align: center;
+  font-family: Impact;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+.feedback_article {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+
+  font-weight: 400;
+}
+#slider {
+  display: flex;
+  align-items: center;
+}
+.slider_btn {
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.svg-icon {
+  width: 50px;
+  height: 50px;
+  transition: all ease-in-out 0.2s;
+}
+.svg-icon:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #000000;
+}
+
+.svg-icon circle {
+  stroke: #000000;
+  stroke-width: 5;
+}
+
+.feedback_img {
+  width: 145px;
+  height: 144px;
+  border-radius: 100%;
+}
+.mapWrap {
+  overflow: hidden;
+  max-width: 822px;
+  height: 384px;
+  width: 100%;
+  border-radius: 33px;
+  z-index: 1000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#map {
+  max-width: 822px;
+  height: 384px;
+  width: 100%;
+}
+.onMap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+footer {
+  background: rgba(1, 27, 64, 0.5);
+  padding: 70px 0;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+.footer_title {
+  font-family: Impact;
+  font-size: 24px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer_about {
+  max-width: 370px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_email {
+  max-width: 500px;
+  width: 100%;
+  border: 2px solid #fff;
+  background: rgba(66, 25, 25, 0);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+}
+.footer_email::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer_btn {
+  width: 237px;
+  height: 50px;
+  background: rgba(1, 27, 64, 0.5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 0;
+}
+.footer_form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+  }
+  .card {
+    flex-direction: column-reverse;
+  }
+  .julia {
+    flex-direction: column;
+  }
+  .about_member,
+  .name {
+    text-align: left;
+  }
+  .consult_form_form {
+    flex-direction: column;
+  }
+}
+@media (max-width: 625px) {
+  .aboutImg {
+    width: 100%;
+    height: auto;
+  }
+  .footer_content {
+    flex-wrap: wrap;
+  }
+  #article {
+    max-height: 300px;
+    overflow: scroll;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 404px) {
+  .header_rmv {
+    display: none;
+  }
+  .member {
+    width: 250px;
+  }
+}
